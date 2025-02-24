@@ -1,4 +1,17 @@
+# Define the SonarQube project key
 sonar.projectKey=my_project
+
+# Define the name of the project
 sonar.projectName=my_project
+
+# Define the version of the project
 sonar.projectVersion=1.0
-sonar.projectBaseDir=
+
+# Define the base directory of the project (if it's different from the current directory)
+# sonar.projectBaseDir=/path/to/your/project
+
+# Define the source directory containing your source code
+sonar.sources=src
+
+# (Optional) Define the binary directory
+# sonar.binaries=bin
